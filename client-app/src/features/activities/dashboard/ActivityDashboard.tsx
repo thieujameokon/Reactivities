@@ -5,7 +5,6 @@ import LoadingComponent from "../../../app/layout/LoadingComponent";
 import { useStore } from "../../../app/stores/store";
 import ActivityFilters from "./ActivityFilters";
 import ActivityList from "./ActivityList";
-import 'react-calendar/dist/Calendar.css'
 
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
